@@ -1,2 +1,196 @@
 @import url('');
 @import 'nullstyle';
+
+.wrapper {
+}
+.home {
+	&__contant {}
+	&__logo {
+		&_logo {}
+		&_title {}
+		&_subtitle {}
+	}
+	&__nav {}
+	&__title {}
+	&__subtitle {}
+	&__button {}
+	&__b-1 {}
+	&__b-2 {}
+	&__img {
+		&_img {}
+	}
+}
+.container {
+}
+.about {
+	&__content {}
+	&__line {}
+	&__title {}
+	&__text {}
+	&__button {}
+	&__img {
+		&_img {}
+	}
+}
+.service {
+}
+.portfolio {
+	&__content {}
+	&__line {}
+	&__title {}
+	&__list-of-layouts {}
+	&__button {}
+}
+.contact {
+	&__content {}
+	&__line {}
+	&__title {}
+	&__form {}
+}
+.services {
+	&__contant {}
+	&__line {}
+	&__title {}
+	&__list-of-services {}
+}
+.list-of-services {
+	&__user-research {}
+	&__ia-and-wireframes {}
+	&__user-testing {}
+	&__looks-and-feel {}
+	&__delivery {}
+	&__integration {}
+}
+.user-research {
+	&__img {}
+	&__text {}
+}
+.ia-and-wireframes {
+	&__img {}
+	&__text {}
+}
+.user-testing {
+	&__img {}
+	&__text {}
+}
+.looks-and-feel {
+	&__img {}
+	&__text {}
+}
+.delivery {
+	&__img {}
+	&__text {}
+}
+.support {
+	&__img {}
+	&__text {}
+}
+.integration {
+}
+.skills {
+	&__content {}
+	&__line {}
+	&__title {}
+}
+.list-of-layouts {
+	&__layout {}
+}
+.layout-1 {
+}
+.layout-2 {
+}
+.layout-3 {
+}
+.layout-4 {
+}
+.layout-5 {
+}
+.layout-6 {
+}
+.testimonials {
+	&__content {}
+	&__line {}
+	&__title {}
+	&__list-of-benefits {}
+}
+.textimonials {
+	&__cutaway {}
+}
+.cutaway {
+	&__img {
+		&_img {}
+	}
+	&__title {}
+	&__subtitle {}
+	&__text {}
+	&__list-of-squares {}
+}
+.list-of-squares {
+	&__item {}
+}
+.1 {
+}
+.2 {
+}
+.3 {
+}
+.list-of-benefits {
+	&__hands-to-work {}
+	&__happy-client {}
+	&__finished-project {}
+	&__cups-of-coffe {}
+}
+.hands-to-work {
+	&__img {}
+	&__text {}
+}
+.happy-client {
+	&__img {}
+	&__text {}
+}
+.finished-project {
+	&__img {}
+	&__text {}
+}
+.cups-of-coffe {
+	&__img {}
+	&__text {}
+}
+.contact-and-footer {
+}
+.form {
+	&__name {}
+	&__email {}
+	&__message {}
+}
+.footer {
+	&__content {}
+	&__social-networks {}
+	&__info {}
+}
+.social-networks {
+	&__fb {}
+	&__twitter {}
+	&__in {}
+	&__google {}
+	&__fifth-social-network {}
+	&__sixth-social-network {}
+}
+.fb {
+	&__img {}
+}
+.twitter {
+	&__img {}
+}
+.in {
+	&__img {}
+}
+.google {
+	&__img {}
+}
+.fifth-social-network {
+	&__img {}
+}
+.sixth-social-network {
+	&__img {}
+}
