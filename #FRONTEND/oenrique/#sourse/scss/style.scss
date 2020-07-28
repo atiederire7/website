@@ -11,6 +11,7 @@ body{
 	margin: 0 auto;
 }
 .home {
+	min-height: 100vh;
 	background: url('../img/1-home/bg.jpg') center / cover no-repeat;
 	&__content {
 		padding-top: 30px;
@@ -21,6 +22,7 @@ body{
 		max-width: 80px;
 		text-align: center;
 		&_logo {}
+		&_img {}
 		&_title {
 			margin-top: 10px;
 			color: #000000;
@@ -49,18 +51,18 @@ body{
 			font-size: 16px;
 			&:hover{
 				border-bottom: 2px solid #4d4d4d;
+				// text-transform: capitalize;
 			}
 		}
 	}
 	&__inner {
-		margin-top: 30px;
 		display: flex;
 	}
 	&__text {
 		max-width: 550px;
 	}
 	&__title {
-		margin-top: 125px;
+		margin-top: 175px;
 		color: #4d4d4d;
 		font-size: 90px;
 		font-weight: 500;
@@ -84,14 +86,9 @@ body{
 	&__img {
 		margin-left: auto;
 		margin-right: 0;
-		border: 1px solid #000;
-		// margin-right: 0px;
-		// width: 100px;
-		// height: 100px;
-		// margin: 0 0 100px 180px;
-		// padding-bottom: 1000px;
+		// border: 1px solid #000;
 		&_img {
-			// margin-right: 0px;
+			margin-top: 20px;
 		}
 	}
 }
