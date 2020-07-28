@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import url("");
 /*Обнуление*/
 * {
   padding: 0;
@@ -28,10 +27,12 @@ html, body {
   width: 100%;
   font-size: 100%;
   line-height: 1;
-  font-size: 14px;
+  font-size: 16px;
+  font-family: "Asap", sans-serif;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  font-weight: 400;
 }
 
 input, button, textarea {
@@ -71,5 +72,87 @@ h1, h2, h3, h4, h5, h6 {
   font-size: inherit;
   font-weight: 400;
 }
-
 /*--------------------*/
+.wrapper .home {
+  background-color: #e2e2e2;
+  background-image: url(../../img/1-home/bg.jpg);
+}
+.wrapper .home .container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.wrapper .home .container .home__content {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper .home .container .home__content .home__logo {
+  max-width: 81px;
+  text-align: center;
+}
+.wrapper .home .container .home__content .home__logo .home__logo_title {
+  margin-top: 10px;
+  color: #000000;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: uppercase;
+  line-height: 11px;
+}
+.wrapper .home .container .home__content .home__logo .home__logo_subtitle {
+  color: #000000;
+  font-family: Lato;
+  font-size: 4px;
+  text-transform: uppercase;
+}
+.wrapper .home .container .home__content .home__nav .home__nav_link {
+  color: #4d4d4d;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-right: 15px;
+  padding-bottom: 5px;
+}
+.wrapper .home .container .home__content .home__nav .home__nav_link:hover {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+}
+.wrapper .home .container .home__inner {
+  margin-top: 40px;
+}
+.wrapper .home .container .home__inner .home_text {
+  max-width: 550px;
+}
+.wrapper .home .container .home__inner .home_text .home__title {
+  margin-top: 125px;
+  color: #4d4d4d;
+  font-size: 90px;
+  font-weight: 500;
+  line-height: 67px;
+}
+.wrapper .home .container .home__inner .home_text .home__subtitle {
+  opacity: 0.54;
+  color: #4d4d4d;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 67px;
+}
+.wrapper .home .container .home__inner .home_text .home__button {
+  color: #4d4d4d;
+  font-weight: 500;
+  line-height: 67px;
+  text-transform: uppercase;
+  margin-right: 15px;
+  padding: 15px 35px;
+}
+.wrapper .home .container .home__inner .home_text .button {
+  border: 1px solid #4d4d4d;
+}
+.wrapper .home .container .home__inner .home_text .button:hover {
+  background-color: #fff;
+  transition: 0.2s linear;
+}
+.wrapper .home .container .home__inner .home__img {
+  width: 100px;
+  height: 100px;
+  margin: 0 0 100px 180px;
+  padding-bottom: 1000px;
+}
