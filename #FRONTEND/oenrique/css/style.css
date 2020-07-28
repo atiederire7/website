@@ -7,7 +7,6 @@
 }
 
 *, *:before, *:after {
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -29,7 +28,7 @@ html, body {
   font-size: 100%;
   line-height: 1;
   font-size: 16px;
-  font-family: 'Asap', sans-serif;
+  font-family: "Asap", sans-serif;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -80,7 +79,6 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 92px;
   margin-bottom: 48px;
 }
-
 .skills__title::before {
   content: "";
   display: block;
@@ -90,76 +88,50 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0.6;
   margin: 0 0 20px 555px;
 }
-
 .skills .list-of-programs {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   padding-bottom: 92px;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  justify-content: space-evenly;
   margin-top: 20px;
 }
-
 .skills .list-of-programs .program {
   width: 30px;
   height: 30px;
 }
-
 .skills .graph {
   max-width: 1170px;
   margin: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
-
 .skills .graph .scale {
   padding-right: 0.5em;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
   display: inline-flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
-
 .skills .graph .scale-value {
   display: block;
   position: relative;
   top: -0.5em;
   padding-bottom: calc(79px - 1em);
 }
-
 .skills .graph .layers {
   position: relative;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  flex-grow: 1;
 }
-
 .skills .graph .layers .background-layer {
   background-color: #f1f1f1;
 }
-
 .skills .graph .layers .background-layer .stroke {
   height: 80px;
   border-top: 1px solid #dfdfdf;
 }
-
 .skills .graph .layers .wave-layer {
   position: absolute;
   top: calc(100% - 400px);
 }
-
 .skills .graph .layers .wave-layer svg {
-  -webkit-filter: drop-shadow(0px -2px 8px #ebebeb);
-          filter: drop-shadow(0px -2px 8px #ebebeb);
+  filter: drop-shadow(0px -2px 8px #ebebeb);
 }
 
 body {
@@ -179,22 +151,15 @@ body {
   min-height: 100vh;
   background: url("../img/1-home/bg.jpg") center/cover no-repeat;
 }
-
 .home__content {
   padding-top: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
-
 .home__logo {
   max-width: 80px;
   text-align: center;
 }
-
 .home__logo_title {
   margin-top: 10px;
   color: #000000;
@@ -205,14 +170,12 @@ body {
   line-height: 15.92px;
   margin-bottom: 3px;
 }
-
 .home__logo_subtitle {
   color: #000000;
   font-family: Lato;
   font-size: 5px;
   text-transform: uppercase;
 }
-
 .home__nav_link {
   color: #4d4d4d;
   text-transform: uppercase;
@@ -221,21 +184,15 @@ body {
   padding-bottom: 5px;
   font-size: 16px;
 }
-
 .home__nav_link:hover {
   border-bottom: 2px solid #4d4d4d;
 }
-
 .home__inner {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 .home__text {
   max-width: 550px;
 }
-
 .home__title {
   margin-top: 175px;
   color: #4d4d4d;
@@ -243,7 +200,6 @@ body {
   font-weight: 500;
   line-height: 67px;
 }
-
 .home__subtitle {
   opacity: 0.54;
   color: #4d4d4d;
@@ -251,7 +207,6 @@ body {
   font-weight: 500;
   line-height: 67px;
 }
-
 .home__button {
   color: #4d4d4d;
   font-weight: 500;
@@ -259,12 +214,10 @@ body {
   margin-right: 15px;
   padding: 15px 35px;
 }
-
 .home__img {
   margin-left: auto;
   margin-right: 0;
 }
-
 .home__img_img {
   margin-top: 20px;
 }
@@ -273,14 +226,11 @@ body {
   border: 1px solid #4d4d4d;
   text-transform: uppercase;
 }
-
 .button:hover {
   background-color: #fff;
   border: 1px solid #fff;
-  -webkit-box-shadow: 0 0 40px #828282;
-          box-shadow: 0 0 40px #828282;
-  -webkit-transition: .2s linear;
-  transition: .2s linear;
+  box-shadow: 0 0 40px #828282;
+  transition: 0.2s linear;
 }
 
 .title {
@@ -297,25 +247,17 @@ body {
 .about {
   min-height: 575px;
 }
-
 .about .about__content {
   margin-top: 110px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
-
 .about .about__content .about__info {
   margin-top: 60px;
 }
-
 .about .about__content .about__info .about__title {
   max-width: 330px;
 }
-
 .about .about__content .about__info .about__title:before {
   content: "";
   display: block;
@@ -325,14 +267,12 @@ body {
   margin: 0 0 15px 5px;
   opacity: 0.6;
 }
-
 .about .about__content .about__info .about__text {
   color: #4d4d4d;
   line-height: 26px;
   max-width: 469px;
   margin: 10px 0 35px 0;
 }
-
 .about .about__content .about__info .about__button {
   color: #4d4d4d;
   font-weight: 500;
@@ -340,18 +280,15 @@ body {
   text-transform: uppercase;
   padding: 15px 45px;
 }
-
 /* SERVICES */
 .services {
   min-height: 750px;
   background-color: #f6f6f6;
   text-align: center;
 }
-
 .services .services__content .services__title {
   padding-top: 92px;
 }
-
 .services .services__content .services__title:before {
   content: "";
   display: block;
@@ -361,25 +298,15 @@ body {
   opacity: 0.6;
   margin: 0 0 20px 555px;
 }
-
 .services .services__content .services__list-of-services {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
-
 .services .services__content .services__list-of-services .services__description {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 33.333%;
-          flex: 0 0 33.333%;
+  flex: 0 0 33.333%;
   margin: 110px 0 0 0;
 }
-
 .services .services__content .services__list-of-services .services__description .services__name {
   color: #4d4d4d;
   font-size: 24px;
@@ -392,16 +319,13 @@ body {
   background-color: #f6f6f6;
   min-height: 1050px;
 }
-
 .portfolio .portfolio__content {
   text-align: center;
 }
-
 .portfolio .portfolio__content .portfolio__title {
   padding-top: 92px;
   margin-bottom: 85px;
 }
-
 .portfolio .portfolio__content .portfolio__title:before {
   content: "";
   display: block;
@@ -411,25 +335,15 @@ body {
   opacity: 0.6;
   margin: 0 0 20px 555px;
 }
-
 .portfolio .portfolio__content .portfolio__list-of-layouts {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
-
 .portfolio .portfolio__content .portfolio__list-of-layouts .portfolio__discription .portfolio__img {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 33.333%;
-          flex: 0 0 33.333%;
+  flex: 0 0 33.333%;
   margin: -45px 0 65px 0;
 }
-
 .portfolio .portfolio__content .portfolio__button {
   color: #4d4d4d;
   font-weight: 500;
@@ -440,13 +354,11 @@ body {
 .testimonials__content {
   margin-top: 126px;
 }
-
 .testimonials__title {
   text-align: center;
   font-size: 46px;
   color: #717171;
 }
-
 .testimonials__title:before {
   content: "";
   display: block;
@@ -456,7 +368,6 @@ body {
   opacity: 0.6;
   margin: 0 0 20px 555px;
 }
-
 .testimonials__cutaway {
   margin: 0 auto;
   border: 1px solid #000;
@@ -465,19 +376,15 @@ body {
 }
 
 .cutaway__body {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   height: 160px;
   border: 1px solid #000;
   margin-top: 82px;
 }
-
 .cutaway__img {
   margin-left: 120px;
   margin-bottom: 108px;
 }
-
 .cutaway__title {
   margin-top: 100px;
   width: 200px;
@@ -488,16 +395,13 @@ body {
   text-transform: uppercase;
   border: 1px solid #000;
 }
-
 .cutaway__subtitle {
   font-size: 12px;
   color: #212121;
   border: 1px solid #000;
 }
-
 .cutaway__text {
   font-size: 16px;
   color: #212121;
   border: 1px solid #000;
 }
-/*# sourceMappingURL=style.css.map */
