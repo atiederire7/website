@@ -251,48 +251,78 @@ body{
 }
 
 .testimonials {
+	&__content{
+		width: 100%;
+	}
 	&__cutaway {
 		margin: 0 auto;
 		border: 1px solid #000;
 		height: 350px;
 		width: 954px;
-
+	}
+	&__list-of-benefits {
+		width: 100%;
+		margin-top: 120px;
+		height: 300px;
+		background-color: #f6f6f6;
+	}
+	&__description {
+		// margin-bottom: 64px;
+		// margin-right: 130px;
+		&:first-child{
+			margin-right: 138px;
+		}
+		&:nth-child(2n){
+			margin-right: 132px;
+		}
+		&:nth-child(3n){
+			margin-right: 125px;
+		}
+		&:last-chils{
+			margin-right: 0px;
+		}
+	}
+	&__img {}
+	&__text {
+		text-align: center;	
+		text-transform: uppercase;
+		margin-top: 30px;
 	}
 }
 .cutaway {
 	&__body {
-		display: flex;
 		height: 160px;
-		border: 1px solid #000;
 		margin-top: 82px;
+		&_inner {
+			margin-left: 120px;
+			margin-right: 70px;
+			display: flex;
+		}
 	}
 	&__img {
-		margin-left: 120px;
-		
-		margin-bottom: 108px;
 		&_img {}
 	}
-	
+	&__all-text {
+		margin-left: 30px;
+	}
 	&__title {
-		margin-top: 100px;
+		margin-bottom: 6px;
 		width: 200px;
-		display: block;
 		font-size: 30px;
 		font-weight: 500;
 		color: #212121;
 		text-transform: uppercase;
-		border: 1px solid #000;
 	}
 	&__subtitle {
+		margin-bottom: 20px;
 		font-size: 12px;
 		color: #212121;
-		border: 1px solid #000;
 	}
 	&__text {
-			font-size: 16px;
-		color: #212121;
-		border: 1px solid #000;
-	}
+		line-height: 1.4;
+		text-transform: uppercase;
+		font-size: 16px;
+		color: #212121;	}
 	&__list-of-squares {}
 }
 
@@ -302,3 +332,11 @@ body{
 .square1 {}
 .square2 {}
 .square3 {}
+
+.list-of-benefits {
+	&__body {
+		display: flex;
+		margin-left: 46px;
+		margin-right: 58px;
+	}
+}
