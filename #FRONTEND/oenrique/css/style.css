@@ -38,6 +38,7 @@ html, body {
 input, button, textarea {
   font-family: inherit;
 }
+
 input::-ms-clear {
   display: none;
 }
@@ -71,70 +72,81 @@ h1, h2, h3, h4, h5, h6 {
   font-size: inherit;
   font-weight: 400;
 }
+
 /*--------------------*/
-.wrapper .home {
-  background-color: #e2e2e2;
-  background-image: url(../../img/1-home/bg.jpg);
+body {
+  height: 100%;
 }
-.wrapper .home .container {
+
+.wrapper {
+  min-height: 100vh;
+}
+
+.container {
   max-width: 1170px;
   margin: 0 auto;
 }
-.wrapper .home .container .home__content {
+
+.home {
+  background: url("../img/1-home/bg.jpg") center/cover no-repeat;
+}
+.home__content {
   padding-top: 30px;
   display: flex;
   justify-content: space-between;
 }
-.wrapper .home .container .home__content .home__logo {
+.home__logo {
   max-width: 81px;
   text-align: center;
 }
-.wrapper .home .container .home__content .home__logo .home__logo_title {
+.home__logo_title {
   margin-top: 10px;
   color: #000000;
   font-family: Lato;
   font-size: 14px;
   font-weight: 300;
   text-transform: uppercase;
-  line-height: 11px;
+  line-height: 15.92px;
+  margin-bottom: 3px;
 }
-.wrapper .home .container .home__content .home__logo .home__logo_subtitle {
+.home__logo_subtitle {
   color: #000000;
   font-family: Lato;
-  font-size: 4px;
+  font-size: 5px;
   text-transform: uppercase;
 }
-.wrapper .home .container .home__content .home__nav .home__nav_link {
+.home__nav_link {
   color: #4d4d4d;
   text-transform: uppercase;
   text-decoration: none;
   margin-right: 15px;
   padding-bottom: 5px;
+  font-size: 16px;
 }
-.wrapper .home .container .home__content .home__nav .home__nav_link:hover {
-  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+.home__nav_link:hover {
+  border-bottom: 2px solid #4d4d4d;
 }
-.wrapper .home .container .home__inner {
+.home__inner {
   margin-top: 40px;
 }
-.wrapper .home .container .home__inner .home_text {
+.home__text {
   max-width: 550px;
 }
-.wrapper .home .container .home__inner .home_text .home__title {
+.home__title {
   margin-top: 125px;
   color: #4d4d4d;
   font-size: 90px;
   font-weight: 500;
   line-height: 67px;
 }
-.wrapper .home .container .home__inner .home_text .home__subtitle {
+.home__subtitle {
   opacity: 0.54;
   color: #4d4d4d;
   font-size: 22px;
   font-weight: 500;
   line-height: 67px;
 }
-.wrapper .home .container .home__inner .home_text .home__button {
+.home__button {
   color: #4d4d4d;
   font-weight: 500;
   line-height: 67px;
@@ -142,16 +154,15 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: 15px;
   padding: 15px 35px;
 }
-.wrapper .home .container .home__inner .home_text .button {
+.home__img {
+  margin-left: auto;
+  margin-right: 0;
+  border: 1px solid orange;
+}
+.button {
   border: 1px solid #4d4d4d;
 }
-.wrapper .home .container .home__inner .home_text .button:hover {
+.button:hover {
   background-color: #fff;
   transition: 0.2s linear;
-}
-.wrapper .home .container .home__inner .home__img {
-  width: 100px;
-  height: 100px;
-  margin: 0 0 100px 180px;
-  padding-bottom: 1000px;
 }
