@@ -85,7 +85,6 @@ body{
 	&__img {
 		margin-left: auto;
 		margin-right: 0;
-		// border: 1px solid #000;
 		&_img {
 			margin-top: 20px;
 		}
@@ -110,8 +109,6 @@ body{
 	letter-spacing: 5px;
 	text-transform: uppercase;
 }
-
-
 
 /* ABOUT */
 .about{
@@ -152,8 +149,6 @@ body{
 	}
 }
 
-
-
 /* SERVICES */
 .services {
 	min-height: 750px;
@@ -189,8 +184,6 @@ body{
 		}
 	}
 }
-
-
 
 /* PORTFOLIO */
 .portfolio{
@@ -231,24 +224,80 @@ body{
 	}
 }
 
-
-
 /* TESTIMONIALS */
-.testimonials{
-	height: 1100px;
-	.testimonials__content{
+.testimonials {
+	&__content {
+		margin-top: 126px;
+	}
+	&__title {
 		text-align: center;
-		.testimonials__title{
-			padding-top: 92px;
-			&:before{
-				content: "";
-				display: block;
-				width: 60px;
-				height: 4px;
-				background-color: #212121;
-				opacity: 0.6;
-				margin: 0 0 20px 555px;
-			}	
-		}
+		font-size: 46px;
+		color: #717171;
+		&:before{
+			content: "";
+			display: block;
+			width: 60px;
+			height: 4px;
+			background-color: #212121;
+			opacity: 0.6;
+			margin: 0 0 20px 555px;
+		}	
+	}
+	&__list-of-benefits {}
+	&__description {}
+	&__img {}
+	&__text {}
+}
+
+.testimonials {
+	&__cutaway {
+		margin: 0 auto;
+		border: 1px solid #000;
+		height: 350px;
+		width: 954px;
+
 	}
 }
+.cutaway {
+	&__body {
+		display: flex;
+		height: 160px;
+		border: 1px solid #000;
+		margin-top: 82px;
+	}
+	&__img {
+		margin-left: 120px;
+		
+		margin-bottom: 108px;
+		&_img {}
+	}
+	
+	&__title {
+		margin-top: 100px;
+		width: 200px;
+		display: block;
+		font-size: 30px;
+		font-weight: 500;
+		color: #212121;
+		text-transform: uppercase;
+		border: 1px solid #000;
+	}
+	&__subtitle {
+		font-size: 12px;
+		color: #212121;
+		border: 1px solid #000;
+	}
+	&__text {
+		font-size: 16px;
+		color: #212121;
+		border: 1px solid #000;
+	}
+	&__list-of-squares {}
+}
+
+.list-of-squares {
+	&__item {}
+}
+.square1 {}
+.square2 {}
+.square3 {}
