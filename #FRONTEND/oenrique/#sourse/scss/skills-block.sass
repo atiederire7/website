@@ -1,0 +1,41 @@
+.skills
+    &__title
+        text-align: center
+        padding-top: 92px
+        margin-bottom: 48px
+        &::before
+            content: ""
+            display: block
+            width: 60px
+            height: 4px
+            background-color: #212121
+            opacity: 0.6
+            margin: 0 0 20px 555px
+    .graph
+        padding-bottom: 92px
+        max-width: 1170px
+        margin: auto
+        display: flex
+        justify-content: center
+        .scale
+            padding-right: 0.5em
+            display: inline-flex
+            flex-direction: column
+            &-value
+                display: block
+                position: relative
+                top: -0.5em
+                padding-bottom: calc(59px - 1em)
+        .layers
+            position: relative
+            flex-grow: 1
+            .background-layer
+                background-color: #f1f1f1;
+                .stroke
+                    height: 60px
+                    border-top: 1px solid #dfdfdf
+            .wave-layer
+                position: absolute
+                top: calc(100% - 400px)
+                svg
+                    filter: drop-shadow( 0px -2px 8px #ebebeb )
