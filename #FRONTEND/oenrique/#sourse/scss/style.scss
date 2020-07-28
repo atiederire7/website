@@ -79,7 +79,6 @@ body{
 		color: #4d4d4d;
 		font-weight: 500;
 		line-height: 67px;
-		text-transform: uppercase;
 		margin-right: 15px;
 		padding: 15px 35px;
 	}
@@ -94,10 +93,162 @@ body{
 }
 .button {
 	border: 1px solid #4d4d4d;
+	text-transform: uppercase;
 	&:hover{
-		background-color: #fff;
-		transition: .2s linear;
-		border: 1px solid #fff;
+			background-color: #fff;
+			border: 1px solid #fff;
+			box-shadow: 0 0 40px #828282;
+			transition: .2s linear;
+		}
+}
+.title{
+	opacity: 0.8;
+	color: #4d4d4d;
+	font-size: 46px;
+	font-weight: 700;
+	line-height: 49px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+}
 
+
+
+/* ABOUT */
+.about{
+	min-height: 575px;
+	.about__content{
+		margin-top: 110px;
+		display: flex;
+		justify-content: space-between;
+		.about__info{
+			margin-top: 60px;
+			.about__title{
+				max-width: 330px;
+				&:before{
+					content: "";
+					display: block;
+					width: 60px;
+					height: 4px;
+					background-color: #212121;
+					margin: 0 0 15px 5px;
+					opacity: 0.6;
+				}
+			}
+			.about__text{
+				color: #4d4d4d;
+				line-height: 26px;
+				max-width: 469px;
+				margin: 10px 0 35px 0;
+			}
+			.about__button{
+				color: #4d4d4d;
+				font-weight: 500;
+				line-height: 67px;
+				text-transform: uppercase;
+				padding: 15px 45px;
+			}
+		}
+		.about__img{}
+	}
+}
+
+
+
+/* SERVICES */
+.services {
+	min-height: 750px;
+	background-color: #f6f6f6;
+	text-align: center;
+	.services__content {
+		.services__title {
+			padding-top: 92px;
+			&:before{
+				content: "";
+				display: block;
+				width: 60px;
+				height: 4px;
+				background-color: #212121;
+				opacity: 0.6;
+				margin: 0 0 20px 555px;
+			}
+		}
+		.services__list-of-services {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			.services__description{
+				flex: 0 0 33.333%;
+				margin: 110px 0 0 0;
+				.services__name{
+					color: #4d4d4d;
+					font-size: 24px;
+					font-weight: 500;
+					margin-top: 15px;
+				}
+			}
+		}
+	}
+}
+
+
+
+/* PORTFOLIO */
+.portfolio{
+	background-color: #f6f6f6;
+	min-height: 1050px;
+	.portfolio__content{
+		text-align: center;
+		.portfolio__title{
+			padding-top: 92px;
+			margin-bottom: 85px;
+			&:before{
+				content: "";
+				display: block;
+				width: 60px;
+				height: 4px;
+				background-color: #212121;
+				opacity: 0.6;
+				margin: 0 0 20px 555px;
+			}	
+		}
+		.portfolio__list-of-layouts{
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			.portfolio__discription{
+				.portfolio__img{
+					flex: 0 0 33.333%;
+					margin: -45px 0 65px 0;
+				}
+			}
+		}
+		.portfolio__button{
+			color: #4d4d4d;
+			font-weight: 500;
+			padding: 20px 47px;
+
+		}
+	}
+}
+
+
+
+/* TESTIMONIALS */
+.testimonials{
+	height: 1100px;
+	.testimonials__content{
+		text-align: center;
+		.testimonials__title{
+			padding-top: 92px;
+			&:before{
+				content: "";
+				display: block;
+				width: 60px;
+				height: 4px;
+				background-color: #212121;
+				opacity: 0.6;
+				margin: 0 0 20px 555px;
+			}	
+		}
 	}
 }
