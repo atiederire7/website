@@ -474,10 +474,10 @@ body {
   margin: 0 0 20px 555px;
 }
 .contact__form {
-  margin-left: 200px;
   padding-bottom: 58px;
   width: 1170px;
   border: 1px solid #000;
+  text-align: center;
 }
 
 .form__name-and-email {
