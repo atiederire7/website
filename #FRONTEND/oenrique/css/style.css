@@ -382,7 +382,11 @@ body {
   background-color: #f6f6f6;
 }
 .testimonials__description {
+<<<<<<< HEAD
   border: 1 px solid #000;
+=======
+  border: 1px solid #000;
+>>>>>>> 4c4f8e679977fb633cb70fd744f10c545128483e
 }
 .testimonials__description:first-child {
   margin-left: 45px;

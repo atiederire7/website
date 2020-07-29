@@ -252,7 +252,11 @@ body{
 		height: 350px;
 		width: 954px;
 	}
+<<<<<<< HEAD
 	&__list-of-benefits{
+=======
+	&__list-of-benefits {
+>>>>>>> 4c4f8e679977fb633cb70fd744f10c545128483e
 		margin-top: 120px;
 		height: 300px;
 		background-color: #f6f6f6;
@@ -327,13 +331,24 @@ body{
 .square2{}
 .square3{}
 
+<<<<<<< HEAD
 .list-of-benefits{
 	&__body{
 		max-width: 1170px;
+=======
+.list-of-benefits {
+	&__body {
+		max-width: 1170px;
+		// justify-content: center;
+>>>>>>> 4c4f8e679977fb633cb70fd744f10c545128483e
 		margin-left: 500px;
 		border: 1px solid #000;
 		display: flex;
 		margin-left: 46px;
 		margin-right: 58px;
 	}
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 4c4f8e679977fb633cb70fd744f10c545128483e
