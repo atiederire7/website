@@ -369,6 +369,9 @@ body{
 		padding-bottom: 30px;
 	}
 	&__name {
+		padding-left: 10px;
+		font-size: 16px;
+		color: rgba(33, 33, 33, 0.8);
 		float: left;
 		height: 57px;
 		width: 370px;
@@ -376,16 +379,24 @@ body{
 		margin-bottom: 30px;
 	}
 	&__email {
-		// float: right;
+		padding-left: 10px;
+		font-size: 16px;
+		color: rgba(33, 33, 33, 0.8);
 		height: 57px;
 		width: 370px;
 		// margin-bottom: 30px;
 	}
 	&__message {
+		padding-top: 20px;
+		padding-left: 10px;
+		font-size: 16px;
+		color: rgba(33, 33, 33, 0.8);
 		height: 207px;
 		width: 770px;
+		margin-bottom: 30px;
 	}
 	&__button{
+		// display: block;
 		width: 123px;
 		height: 50px;
 		background-color: #fff;
@@ -398,7 +409,6 @@ body{
 }
 .footer {
 	// height: 82px;
-
 	&__content {
 		padding-top: 26px;
 		border-top: 1px solid #fff;
@@ -407,7 +417,8 @@ body{
 	}
 	&__social-networks {
 		display: flex;
-
+		float: left;
+		
 	}
 	&__info {
 		text-align: center;
@@ -419,8 +430,8 @@ body{
 	}
 }
 .social-networks {
-	
 	&__fb {
+		display: block;
 		background-color: #fff;
 		margin-right: 8px;
 		width: 27px;
@@ -429,12 +440,14 @@ body{
 
 	}
 	&__twitter {
+		display: block;
 		background-color: #0084b4;
 		margin-right: 8px;
 		width: 27px;
 		height: 27px;
 	}
 	&__in {
+		display: block;
 		background-color: #fff;
 		margin-right: 8px;
 		width: 27px;
@@ -442,18 +455,21 @@ body{
 
 	}
 	&__google {
+		display: block;
 		background-color: #fff;
 		margin-right: 8px;
 		width: 27px;
 		height: 27px;
 	}
 	&__fifth-social-network {
+		display: block;
 		background-color: #fff;
 		margin-right: 8px;
 		width: 27px;
 		height: 27px;
 	}
 	&__sixth-social-network {
+		display: block;
 		background-color: #fff;
 		margin-right: 8px;
 		width: 27px;

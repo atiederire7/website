@@ -478,6 +478,9 @@ body {
   padding-bottom: 30px;
 }
 .form__name {
+  padding-left: 10px;
+  font-size: 16px;
+  color: rgba(33, 33, 33, 0.8);
   float: left;
   height: 57px;
   width: 370px;
@@ -485,12 +488,20 @@ body {
   margin-bottom: 30px;
 }
 .form__email {
+  padding-left: 10px;
+  font-size: 16px;
+  color: rgba(33, 33, 33, 0.8);
   height: 57px;
   width: 370px;
 }
 .form__message {
+  padding-top: 20px;
+  padding-left: 10px;
+  font-size: 16px;
+  color: rgba(33, 33, 33, 0.8);
   height: 207px;
   width: 770px;
+  margin-bottom: 30px;
 }
 .form__button {
   width: 123px;
@@ -510,6 +521,7 @@ body {
 }
 .footer__social-networks {
   display: flex;
+  float: left;
 }
 .footer__info {
   text-align: center;
@@ -520,36 +532,42 @@ body {
 }
 
 .social-networks__fb {
+  display: block;
   background-color: #fff;
   margin-right: 8px;
   width: 27px;
   height: 27px;
 }
 .social-networks__twitter {
+  display: block;
   background-color: #0084b4;
   margin-right: 8px;
   width: 27px;
   height: 27px;
 }
 .social-networks__in {
+  display: block;
   background-color: #fff;
   margin-right: 8px;
   width: 27px;
   height: 27px;
 }
 .social-networks__google {
+  display: block;
   background-color: #fff;
   margin-right: 8px;
   width: 27px;
   height: 27px;
 }
 .social-networks__fifth-social-network {
+  display: block;
   background-color: #fff;
   margin-right: 8px;
   width: 27px;
   height: 27px;
 }
 .social-networks__sixth-social-network {
+  display: block;
   background-color: #fff;
   margin-right: 8px;
   width: 27px;
