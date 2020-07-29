@@ -229,8 +229,10 @@ body{
 .testimonials {
 	&__content {
 		margin-top: 126px;
+		width: 100%;
 	}
 	&__title {
+		margin-bottom: 56px;
 		text-align: center;
 		font-size: 46px;
 		color: #717171;
@@ -243,16 +245,6 @@ body{
 			opacity: 0.6;
 			margin: 0 0 20px 555px;
 		}	
-	}
-	&__list-of-benefits {}
-	&__description {}
-	&__img {}
-	&__text {}
-}
-
-.testimonials {
-	&__content{
-		width: 100%;
 	}
 	&__cutaway {
 		margin: 0 auto;
@@ -267,8 +259,7 @@ body{
 		background-color: #f6f6f6;
 	}
 	&__description {
-		// margin-bottom: 64px;
-		// margin-right: 130px;
+		border: 1px solid #000;
 		&:first-child{
 			margin-right: 138px;
 		}
@@ -289,6 +280,15 @@ body{
 		margin-top: 30px;
 	}
 }
+.list-of-benefits {
+	&__body {
+		border: 1px solid #000;
+		display: flex;
+		margin-left: 46px;
+		margin-right: 58px;
+	}
+}
+
 .cutaway {
 	&__body {
 		height: 160px;
@@ -333,10 +333,3 @@ body{
 .square2 {}
 .square3 {}
 
-.list-of-benefits {
-	&__body {
-		display: flex;
-		margin-left: 46px;
-		margin-right: 58px;
-	}
-}
