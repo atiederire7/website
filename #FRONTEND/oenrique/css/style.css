@@ -426,6 +426,8 @@ body {
 .list-of-benefits__description {
   border: 1px solid #000;
   text-align: center;
+  display: flex;
+  flex-direction: column;
   justify-content: flex-end;
 }
 .list-of-benefits__img {
