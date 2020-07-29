@@ -446,3 +446,142 @@ body {
   font-size: 22px;
   text-transform: uppercase;
 }
+
+.contact-and-footer {
+  background: url("../img/7-contact/bg.jpg") center/cover no-repeat;
+}
+
+.contact__title {
+  display: block;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 46px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 145px;
+  padding-bottom: 72px;
+}
+.contact__title:before {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: #ffffff;
+  margin: 0 0 20px 555px;
+}
+.contact__form {
+  margin-left: 200px;
+  padding-bottom: 58px;
+}
+
+.form__name-and-email {
+  padding-bottom: 30px;
+}
+.form__name {
+  float: left;
+  height: 57px;
+  width: 370px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.form__email {
+  height: 57px;
+  width: 370px;
+}
+.form__message {
+  height: 207px;
+  width: 770px;
+}
+.form__button {
+  width: 123px;
+  height: 50px;
+  background-color: #fff;
+  color: #4d4d4d;
+  font-size: 16px;
+  font-weight: 700;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+.footer__content {
+  padding-top: 26px;
+  border-top: 1px solid #fff;
+  display: flex;
+}
+.footer__social-networks {
+  display: flex;
+}
+.footer__info {
+  text-align: center;
+  color: #ffffff;
+  font-size: 16px;
+  padding-bottom: 34px;
+  font-weight: 400;
+}
+
+.social-networks__fb {
+  background-color: #fff;
+  margin-right: 8px;
+  width: 27px;
+  height: 27px;
+}
+.social-networks__twitter {
+  background-color: #0084b4;
+  margin-right: 8px;
+  width: 27px;
+  height: 27px;
+}
+.social-networks__in {
+  background-color: #fff;
+  margin-right: 8px;
+  width: 27px;
+  height: 27px;
+}
+.social-networks__google {
+  background-color: #fff;
+  margin-right: 8px;
+  width: 27px;
+  height: 27px;
+}
+.social-networks__fifth-social-network {
+  background-color: #fff;
+  margin-right: 8px;
+  width: 27px;
+  height: 27px;
+}
+.social-networks__sixth-social-network {
+  background-color: #fff;
+  margin-right: 8px;
+  width: 27px;
+  height: 27px;
+}
+
+.fb__img {
+  display: block;
+  margin: 0 auto;
+}
+
+.twitter__img {
+  display: block;
+  margin: 0 auto;
+}
+
+.in__img {
+  display: block;
+  margin: 0 auto;
+}
+
+.google__img {
+  display: block;
+  margin: 0 auto;
+}
+
+.fifth-social-network__img {
+  display: block;
+  margin: 0 auto;
+}
+
+.sixth-social-network__img {
+  display: block;
+  margin: 0 auto;
+}
