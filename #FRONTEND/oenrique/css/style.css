@@ -376,31 +376,6 @@ body {
   height: 350px;
   width: 954px;
 }
-.testimonials__list-of-benefits {
-  margin-top: 120px;
-  height: 300px;
-  background-color: #f6f6f6;
-}
-.testimonials__description {
-<<<<<<< HEAD
-  border: 1 px solid #000;
-=======
-  border: 1px solid #000;
->>>>>>> 4c4f8e679977fb633cb70fd744f10c545128483e
-}
-.testimonials__description:first-child {
-  margin-left: 45px;
-  margin-right: 138px;
-}
-.testimonials__description:nth-child(2n) {
-  margin-right: 132px;
-}
-.testimonials__description:nth-child(3n) {
-  margin-right: 125px;
-}
-.testimonials__description:last-child {
-  margin-right: 0;
-}
 .testimonials__text {
   text-align: center;
   text-transform: uppercase;
@@ -438,11 +413,27 @@ body {
   font-size: 16px;
   color: #212121;
 }
-.list-of-benefits__body {
-  max-width: 1170px;
-  margin-left: 500px;
+.list-of-benefits {
+  background-color: #f6f6f6;
+  margin-top: 120px;
+  height: 300px;
+}
+.list-of-benefits__content {
   border: 1px solid #000;
   display: flex;
-  margin-left: 46px;
-  margin-right: 58px;
+  justify-content: space-between;
+}
+.list-of-benefits__description {
+  border: 1px solid #000;
+  text-align: center;
+}
+.list-of-benefits__img {
+  margin: 0 auto;
+}
+.list-of-benefits__title {
+  margin-bottom: 12px;
+  margin-top: 30px;
+}
+.list-of-benefits__text {
+  text-transform: uppercase;
 }

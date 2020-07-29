@@ -252,31 +252,6 @@ body{
 		height: 350px;
 		width: 954px;
 	}
-<<<<<<< HEAD
-	&__list-of-benefits{
-=======
-	&__list-of-benefits {
->>>>>>> 4c4f8e679977fb633cb70fd744f10c545128483e
-		margin-top: 120px;
-		height: 300px;
-		background-color: #f6f6f6;
-	}
-	&__description{
-		border: 1 px solid #000;
-		&:first-child{
-			margin-left: 45px;
-			margin-right: 138px;
-		}
-		&:nth-child(2n){
-			margin-right: 132px;
-		}
-		&:nth-child(3n){
-			margin-right: 125px;
-		}
-		&:last-child{
-			margin-right: 0;
-		}
-	}
 	&__img{}
 	&__text{
 		text-align: center;
@@ -284,9 +259,6 @@ body{
 		margin-top: 30px;
 	}
 }
-
-
-
 .cutaway{
 	&__body{
 		height: 160px;
@@ -296,9 +268,6 @@ body{
 			margin-right: 70px;
 			display: flex;
 		}
-	}
-	&__img{
-		&_img{}
 	}
 	&__all-text{
 		margin-left: 30px;
@@ -331,24 +300,30 @@ body{
 .square2{}
 .square3{}
 
-<<<<<<< HEAD
-.list-of-benefits{
-	&__body{
-		max-width: 1170px;
-=======
+
+
 .list-of-benefits {
-	&__body {
-		max-width: 1170px;
-		// justify-content: center;
->>>>>>> 4c4f8e679977fb633cb70fd744f10c545128483e
-		margin-left: 500px;
+	background-color: #f6f6f6;
+	margin-top: 120px;
+	height: 300px;
+	&__content {
 		border: 1px solid #000;
 		display: flex;
-		margin-left: 46px;
-		margin-right: 58px;
+		justify-content: space-between;
 	}
-<<<<<<< HEAD
+	&__description {
+		border: 1px solid #000;
+		text-align: center;
+	}
+	&__img {
+		margin: 0 auto;
+	}
+	&__title{
+		margin-bottom: 12px;
+		margin-top: 30px;
+	}
+	&__text {
+		text-transform: uppercase;
+		
+	}
 }
-=======
-}
->>>>>>> 4c4f8e679977fb633cb70fd744f10c545128483e
