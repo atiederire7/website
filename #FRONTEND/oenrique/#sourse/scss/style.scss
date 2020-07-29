@@ -334,6 +334,7 @@ body{
 
 .contact-and-footer {
 	// height: 787px;
+	min-height: 100vh;
 	background: url('../img/7-contact/bg.jpg') center / cover no-repeat;
 }
 .contact {
@@ -396,8 +397,10 @@ body{
 		padding-left: 10px;
 		font-size: 16px;
 		color: rgba(33, 33, 33, 0.8);
-		height: 207px;
-		width: 770px;
+		max-height: 207px;
+		max-width: 770px;
+		min-height: 207px;
+		min-width: 770px;
 		margin-bottom: 30px;
 	}
 	&__button{	
@@ -423,6 +426,7 @@ body{
 .footer {
 	// height: 82px;
 	&__content {
+		text-align: center;
 		padding-top: 26px;
 		border-top: 1px solid #fff;
 		display: flex;
