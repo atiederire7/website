@@ -231,7 +231,7 @@ body{
 		margin-top: 126px;
 		width: 100%;
 	}
-	&__title {
+	.testimonials__title {
 		margin-bottom: 56px;
 		text-align: center;
 		font-size: 46px;
@@ -246,21 +246,21 @@ body{
 			margin: 0 0 20px 555px;
 		}	
 	}
-	&__cutaway {
+	.testimonials__cutaway {
 		margin: 0 auto;
 		border: 1px solid #000;
 		height: 350px;
 		width: 954px;
 	}
-	&__list-of-benefits {
-		width: 100%;
+	&__list-of-benefits{
 		margin-top: 120px;
 		height: 300px;
 		background-color: #f6f6f6;
 	}
-	&__description {
-		border: 1px solid #000;
+	&__description{
+		border: 1 px solid #000;
 		&:first-child{
+			margin-left: 45px;
 			margin-right: 138px;
 		}
 		&:nth-child(2n){
@@ -269,43 +269,37 @@ body{
 		&:nth-child(3n){
 			margin-right: 125px;
 		}
-		&:last-chils{
-			margin-right: 0px;
+		&:last-child{
+			margin-right: 0;
 		}
 	}
-	&__img {}
-	&__text {
-		text-align: center;	
+	&__img{}
+	&__text{
+		text-align: center;
 		text-transform: uppercase;
 		margin-top: 30px;
 	}
 }
-.list-of-benefits {
-	&__body {
-		border: 1px solid #000;
-		display: flex;
-		margin-left: 46px;
-		margin-right: 58px;
-	}
-}
 
-.cutaway {
-	&__body {
+
+
+.cutaway{
+	&__body{
 		height: 160px;
 		margin-top: 82px;
-		&_inner {
+		&_inner{
 			margin-left: 120px;
 			margin-right: 70px;
 			display: flex;
 		}
 	}
-	&__img {
-		&_img {}
+	&__img{
+		&_img{}
 	}
-	&__all-text {
+	&__all-text{
 		margin-left: 30px;
 	}
-	&__title {
+	&__title{
 		margin-bottom: 6px;
 		width: 200px;
 		font-size: 30px;
@@ -313,23 +307,33 @@ body{
 		color: #212121;
 		text-transform: uppercase;
 	}
-	&__subtitle {
+	&__subtitle{
 		margin-bottom: 20px;
 		font-size: 12px;
 		color: #212121;
 	}
-	&__text {
+	&__text{
 		line-height: 1.4;
 		text-transform: uppercase;
 		font-size: 16px;
-		color: #212121;	}
-	&__list-of-squares {}
+		color: #212121;
+	}
+	&__list-of-squares{}
 }
-
-.list-of-squares {
-	&__item {}
+.list-of-squares{
+	&__item{}
 }
-.square1 {}
-.square2 {}
-.square3 {}
+.square1{}
+.square2{}
+.square3{}
 
+.list-of-benefits{
+	&__body{
+		max-width: 1170px;
+		margin-left: 500px;
+		border: 1px solid #000;
+		display: flex;
+		margin-left: 46px;
+		margin-right: 58px;
+	}
+}
