@@ -451,6 +451,10 @@ body {
   background: url("../img/7-contact/bg.jpg") center/cover no-repeat;
 }
 
+.contact__content {
+  width: 1170px;
+  margin: 0 auto;
+}
 .contact__title {
   display: block;
   text-transform: uppercase;
@@ -472,9 +476,12 @@ body {
 .contact__form {
   margin-left: 200px;
   padding-bottom: 58px;
+  width: 1170px;
+  border: 1px solid #000;
 }
 
 .form__name-and-email {
+  border: 1px solid #000;
   padding-bottom: 30px;
 }
 .form__name {
@@ -503,15 +510,19 @@ body {
   width: 770px;
   margin-bottom: 30px;
 }
-.form__button {
-  width: 123px;
-  height: 50px;
-  background-color: #fff;
+.form__button__inner {
+  margin: 0 auto;
   color: #4d4d4d;
   font-size: 16px;
   font-weight: 700;
+  background-color: #fff;
   justify-content: center;
+  width: 123px;
+  height: 50px;
   text-transform: uppercase;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
 
 .footer__content {

@@ -337,7 +337,10 @@ body{
 	background: url('../img/7-contact/bg.jpg') center / cover no-repeat;
 }
 .contact {
-	&__content {}
+	&__content {
+		width: 1170px;
+		margin: 0 auto;
+	}
 	&__title {
 		display: block;
 		text-transform: uppercase;
@@ -355,16 +358,19 @@ body{
 			background-color: #ffffff;
 			// opacity: 0.6;
 			margin: 0 0 20px 555px;
-			}
+		}
 	}
 	&__form {
 		margin-left: 200px;
 		padding-bottom: 58px;
+		width: 1170px;
+		border: 1px solid #000;
 	}
 }
 
 .form {
 	&__name-and-email{
+		border: 1px solid #000;
 		// display: flex;
 		padding-bottom: 30px;
 	}
@@ -395,18 +401,29 @@ body{
 		width: 770px;
 		margin-bottom: 30px;
 	}
-	&__button{
-		// display: block;
-		width: 123px;
-		height: 50px;
-		background-color: #fff;
-		color: rgb(77, 77, 77);
-		font-size: 16px;
-		font-weight: 700;
-		justify-content: center;
-		text-transform: uppercase;
+	&__button{	
+				
+		&__inner{
+			margin: 0 auto;
+			color: rgb(77, 77, 77);
+			font-size: 16px;
+			font-weight: 700;
+			background-color: #fff;
+			justify-content: center;
+			width: 123px;
+			height: 50px;
+			text-transform: uppercase;
+
+			position: relative;
+			left: 50%;
+			transform: translate(-50%, 0);
+
+
+		}
 	}
 }
+
+
 .footer {
 	// height: 82px;
 	&__content {
