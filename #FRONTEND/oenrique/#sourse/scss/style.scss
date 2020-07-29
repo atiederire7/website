@@ -252,7 +252,6 @@ body{
 		height: 350px;
 		width: 954px;
 	}
-	&__img{}
 	&__text{
 		text-align: center;
 		text-transform: uppercase;
@@ -291,10 +290,6 @@ body{
 		font-size: 16px;
 		color: #212121;
 	}
-	&__list-of-squares{}
-}
-.list-of-squares{
-	&__item{}
 }
 .square1{}
 .square2{}
@@ -305,13 +300,13 @@ body{
 	margin-top: 120px;
 	height: 300px;
 	&__content {
-		
-		border: 1px solid #000;
+		// border: 1px solid #000;
 		display: flex;
 		justify-content: space-between;
 	}
 	&__description {
-		border: 1px solid #000;
+		margin-top: 50px;
+		// border: 1px solid #000;
 		text-align: center;
 		display: flex;
 		flex-direction: column;

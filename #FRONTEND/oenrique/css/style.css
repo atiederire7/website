@@ -413,18 +413,18 @@ body {
   font-size: 16px;
   color: #212121;
 }
+
 .list-of-benefits {
   background-color: #f6f6f6;
   margin-top: 120px;
   height: 300px;
 }
 .list-of-benefits__content {
-  border: 1px solid #000;
   display: flex;
   justify-content: space-between;
 }
 .list-of-benefits__description {
-  border: 1px solid #000;
+  margin-top: 50px;
   text-align: center;
   display: flex;
   flex-direction: column;
