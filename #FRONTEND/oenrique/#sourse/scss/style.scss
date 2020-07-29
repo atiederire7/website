@@ -253,7 +253,6 @@ body{
 		width: 954px;
 	}
 	&__list-of-benefits {
-		width: 100%;
 		margin-top: 120px;
 		height: 300px;
 		background-color: #f6f6f6;
@@ -261,6 +260,7 @@ body{
 	&__description {
 		border: 1px solid #000;
 		&:first-child{
+			margin-left: 45px;
 			margin-right: 138px;
 		}
 		&:nth-child(2n){
@@ -278,14 +278,6 @@ body{
 		text-align: center;	
 		text-transform: uppercase;
 		margin-top: 30px;
-	}
-}
-.list-of-benefits {
-	&__body {
-		border: 1px solid #000;
-		display: flex;
-		margin-left: 46px;
-		margin-right: 58px;
 	}
 }
 
@@ -333,3 +325,14 @@ body{
 .square2 {}
 .square3 {}
 
+.list-of-benefits {
+	&__body {
+		max-width: 1170px;
+		// justify-content: center;
+		margin-left: 500px;
+		border: 1px solid #000;
+		display: flex;
+		margin-left: 46px;
+		margin-right: 58px;
+	}
+}
