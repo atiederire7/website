@@ -434,9 +434,15 @@ body {
   margin: 0 auto;
 }
 .list-of-benefits__title {
+  color: #212121;
+  font-weight: 500;
+  font-size: 30px;
   margin-bottom: 12px;
   margin-top: 30px;
 }
 .list-of-benefits__text {
+  color: #212121;
+  font-weight: 400;
+  font-size: 22px;
   text-transform: uppercase;
 }

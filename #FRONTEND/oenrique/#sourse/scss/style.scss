@@ -300,13 +300,12 @@ body{
 .square2{}
 .square3{}
 
-
-
 .list-of-benefits {
 	background-color: #f6f6f6;
 	margin-top: 120px;
 	height: 300px;
 	&__content {
+		
 		border: 1px solid #000;
 		display: flex;
 		justify-content: space-between;
@@ -322,10 +321,16 @@ body{
 		margin: 0 auto;
 	}
 	&__title{
+		color: #212121;
+		font-weight: 500;
+		font-size: 30px;
 		margin-bottom: 12px;
 		margin-top: 30px;
 	}
 	&__text {
+		color: #212121;
+		font-weight: 400;
+		font-size: 22px;
 		text-transform: uppercase;
 		
 	}
