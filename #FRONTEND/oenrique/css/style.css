@@ -514,6 +514,9 @@ body {
 .form__button {
   display: inline-flex;
 }
+.form__button__img {
+  margin-top: 3.5px;
+}
 .form__button__inner {
   margin: 0 auto;
   color: #4d4d4d;
@@ -553,7 +556,7 @@ body {
 }
 .social-networks__twitter {
   display: block;
-  background-color: #0084b4;
+  background-color: #fff;
   margin-right: 8px;
   width: 27px;
   height: 27px;
