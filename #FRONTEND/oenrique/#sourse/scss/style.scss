@@ -428,37 +428,39 @@ body{
 .footer {
 	// height: 82px;
 	&__content {
-		text-align: center;
-		padding-top: 26px;
-		border-top: 1px solid #fff;
+		// text-align: center;
 		display: flex;
-		// border-top: 1px solid #fff;
+		padding-top: 26px;
+		padding-bottom: 30px;
+		border-top: 1px solid #fff;
 	}
 	&__social-networks {
 		display: flex;
-		float: left;
 		
 	}
 	&__info {
-		text-align: center;
-		color: #ffffff;
-		font-size: 16px;
-		padding-bottom: 34px;
-		font-weight: 400;
-
+		margin-left: 300px;
+		// border: 1px solid #000;
+		p{
+			
+			display: block;
+			color: #ffffff;
+			font-size: 16px;
+			font-weight: 400;
+		}
 	}
 }
 .social-networks {
 	&__fb {
+		padding-top: 5px;
 		display: block;
 		background-color: #fff;
 		margin-right: 8px;
 		width: 27px;
 		height: 27px;
-
-
 	}
 	&__twitter {
+		padding-top: 5px;
 		display: block;
 		background-color: #fff;
 		margin-right: 8px;
@@ -466,6 +468,7 @@ body{
 		height: 27px;
 	}
 	&__in {
+		padding-top: 5px;
 		display: block;
 		background-color: #fff;
 		margin-right: 8px;
@@ -474,59 +477,75 @@ body{
 
 	}
 	&__google {
+		padding-top: 6px;
 		display: block;
 		background-color: #fff;
 		margin-right: 8px;
 		width: 27px;
 		height: 27px;
 	}
-	&__fifth-social-network {
+	&__be {
 		display: block;
 		background-color: #fff;
 		margin-right: 8px;
 		width: 27px;
 		height: 27px;
 	}
-	&__sixth-social-network {
+	&__d {
 		display: block;
 		background-color: #fff;
-		margin-right: 8px;
+		margin-right: 0;
 		width: 27px;
 		height: 27px;
 	}
 }
 .fb {
 	&__img {
+		margin-top: 7px;
+		width: 15px;
+		height: 15px;
 		display: block;
 		margin: 0 auto;
 	}
 }
 .twitter {
 	&__img {
+		width: 15px;
+		height: 15px;
 		display: block;
 		margin: 0 auto;
+		
 	}
 }
 .in {
 	&__img {
+		width: 15px;
+		height: 15px;
 		display: block;
 		margin: 0 auto;
 	}
 }
 .google {
 	&__img {
+		width: 22px;
+		height: 15px;
 		display: block;
 		margin: 0 auto;
 	}
 }
-.fifth-social-network {
+.be {
 	&__img {
+		
+		width: 19px;
+		height: 13px;
 		display: block;
 		margin: 0 auto;
 	}
 }
-.sixth-social-network {
+.d {
 	&__img {
+		width: 15px;
+		height: 15px;
 		display: block;
 		margin: 0 auto;
 	}
