@@ -424,7 +424,6 @@ body{
 	}
 }
 
-
 .footer {
 	// height: 82px;
 	&__content {
@@ -440,6 +439,7 @@ body{
 	}
 	&__info {
 		margin-left: 300px;
+		margin-top: 5px;
 		// border: 1px solid #000;
 		p{
 			
@@ -460,7 +460,7 @@ body{
 		height: 27px;
 	}
 	&__twitter {
-		padding-top: 5px;
+		padding-top: 3px;
 		display: block;
 		background-color: #fff;
 		margin-right: 8px;
@@ -468,7 +468,7 @@ body{
 		height: 27px;
 	}
 	&__in {
-		padding-top: 5px;
+		padding-top: 3px;
 		display: block;
 		background-color: #fff;
 		margin-right: 8px;
@@ -477,7 +477,7 @@ body{
 
 	}
 	&__google {
-		padding-top: 6px;
+		padding-top: 5px;
 		display: block;
 		background-color: #fff;
 		margin-right: 8px;
@@ -492,6 +492,7 @@ body{
 		height: 27px;
 	}
 	&__d {
+		padding-top: 3px;
 		display: block;
 		background-color: #fff;
 		margin-right: 0;
@@ -501,51 +502,36 @@ body{
 }
 .fb {
 	&__img {
-		margin-top: 7px;
-		width: 15px;
-		height: 15px;
 		display: block;
 		margin: 0 auto;
 	}
 }
 .twitter {
 	&__img {
-		width: 15px;
-		height: 15px;
 		display: block;
 		margin: 0 auto;
-		
 	}
 }
 .in {
 	&__img {
-		width: 15px;
-		height: 15px;
 		display: block;
 		margin: 0 auto;
 	}
 }
 .google {
 	&__img {
-		width: 22px;
-		height: 15px;
 		display: block;
 		margin: 0 auto;
 	}
 }
 .be {
 	&__img {
-		
-		width: 19px;
-		height: 13px;
 		display: block;
 		margin: 0 auto;
 	}
 }
 .d {
 	&__img {
-		width: 15px;
-		height: 15px;
 		display: block;
 		margin: 0 auto;
 	}
