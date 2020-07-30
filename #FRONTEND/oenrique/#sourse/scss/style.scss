@@ -27,16 +27,17 @@ body{
 		&_title {
 			margin-top: 10px;
 			color: #000000;
-			font-family: Lato;
-			font-size: 14px;
+			font-family: 'Lato', sans-serif;
 			font-weight: 300;
+			font-size: 14px;
 			text-transform: uppercase;
 			line-height: 15.92px;
 			margin-bottom: 3px;
 		}
 		&_subtitle {
 			color: #000000;	
-			font-family: Lato;
+			font-family: 'Lato', sans-serif;
+			font-weight: 400;
 			font-size: 5px;
 			text-transform: uppercase;
 
@@ -47,6 +48,8 @@ body{
 			color: #4d4d4d;
 			text-transform: uppercase;
 			text-decoration: none;
+			font-family: 'Asap', sans-serif;
+			font-weight: 400;
 			margin-right: 15px;
 			padding-bottom: 5px;
 			font-size: 16px;
@@ -66,6 +69,7 @@ body{
 		margin-top: 175px;
 		color: #4d4d4d;
 		font-size: 90px;
+		font-family: 'Asap', sans-serif;
 		font-weight: 500;
 		line-height: 67px;
 	}
@@ -73,11 +77,13 @@ body{
 		opacity: 0.54;
 		color: #4d4d4d;
 		font-size: 22px;
+		font-family: 'Asap', sans-serif;
 		font-weight: 500;
 		line-height: 67px;
 	}
 	&__button {
 		color: #4d4d4d;
+		font-family: 'Asap', sans-serif;
 		font-weight: 500;
 		line-height: 67px;
 		margin-right: 15px;
@@ -122,6 +128,11 @@ body{
 			margin-top: 60px;
 			.about__title{
 				max-width: 330px;
+				opacity: 0.8;
+				font-family: 'Asap', sans-serif;
+				font-weight: 700;
+				line-height: 49px;
+				letter-spacing: 5.52px;
 				&:before{
 					content: "";
 					display: block;
@@ -133,10 +144,13 @@ body{
 				}
 			}
 			.about__text{
-				color: #4d4d4d;
 				line-height: 26px;
 				max-width: 469px;
 				margin: 10px 0 35px 0;
+				color: #4d4d4d;
+				font-family: 'Asap', sans-serif;
+				font-size: 16px;
+				font-weight: 400;
 			}
 			.about__button{
 				color: #4d4d4d;
@@ -144,9 +158,13 @@ body{
 				line-height: 67px;
 				text-transform: uppercase;
 				padding: 15px 45px;
+				font-family: 'Asap', sans-serif;
+				font-size: 16px;
+				font-weight: 500;
+				line-height: 67px;
+				letter-spacing: 0.96px;
 			}
 		}
-		.about__img{}
 	}
 }
 
@@ -157,6 +175,12 @@ body{
 	text-align: center;
 	.services__content {
 		.services__title {
+			opacity: 0.8;
+			color: #4d4d4d;
+			font-family: 'Asap', sans-serif;
+			font-size: 46px;
+			font-weight: 700;
+			letter-spacing: 5.52px;
 			padding-top: 92px;
 			&:before{
 				content: "";
@@ -176,6 +200,8 @@ body{
 				flex: 0 0 33.333%;
 				margin: 110px 0 0 0;
 				.services__name{
+					line-height: 49px;
+					font-family: 'Asap', sans-serif;
 					color: #4d4d4d;
 					font-size: 24px;
 					font-weight: 500;
