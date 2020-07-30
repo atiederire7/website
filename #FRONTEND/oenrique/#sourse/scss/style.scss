@@ -407,7 +407,9 @@ body{
 			// border: 1px solid red;
 			display: inline-flex;
 			
-			
+			&__img{
+				margin-top: 3.5px;
+			}
 		&__inner{
 			margin: 0 auto;
 			color: rgb(77, 77, 77);
@@ -458,7 +460,7 @@ body{
 	}
 	&__twitter {
 		display: block;
-		background-color: #0084b4;
+		background-color: #fff;
 		margin-right: 8px;
 		width: 27px;
 		height: 27px;
